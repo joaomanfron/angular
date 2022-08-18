@@ -1,28 +1,13 @@
-<nav class="navbar navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" RouterLink="">E-Players</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="">Início</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="login">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="campeonatos">Campeonatos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="resultados">Resultados</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="noticias">Notícias</a>
-        </li>
-      </ul>
-    </div>
+<header>
+  <div class="containerr header">
+    <a routerLink="/home"><img src="../../../assets/img/logo.svg" alt="Logo"></a>
+    <nav class="menu">
+      <a>Inicio</a>
+      <a routerLink="/login">Login</a>
+      <a>Campeonatos</a>
+      <a>Resultados</a>
+      <a>Noticias</a>
+    </nav>
+    <a id="bars"><img src="../../../assets/img/bars.svg" class="menu-icon"></a>
   </div>
-</nav>
-  
+</header>

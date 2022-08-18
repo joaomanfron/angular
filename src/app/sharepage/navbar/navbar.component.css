@@ -4,3 +4,41 @@
     color: var(--primeira-color);
     font-weight: bold;
 }
+.containerr {
+    max-width: 90%;
+  }
+  
+  header {
+    background-color: black;
+    height: 80px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .menu {
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  #bars {
+    display: none;
+  }
+  
+  .menu-icon {
+    height: 40px;
+  }
